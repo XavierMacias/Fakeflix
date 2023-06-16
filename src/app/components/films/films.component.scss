@@ -1,3 +1,20 @@
 .sectionTitle {
     font-weight: 100;
+    @media only screen and (min-width: 601px) {
+        font-size: 50px;
+    }
+}
+
+.films {
+    @media only screen and (min-width: 601px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+}
+
+.movie {
+    @media only screen and (min-width: 601px) {
+        width: 750px;
+    }
 }

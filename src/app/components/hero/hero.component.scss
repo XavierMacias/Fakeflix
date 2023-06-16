@@ -1,5 +1,8 @@
 .sectionTitle {
     font-weight: 100;
+    @media only screen and (min-width: 601px) {
+        font-size: 50px;
+    }
 }
 
 .top {
@@ -12,6 +15,18 @@
 
 .movie {
     width: 300px;
+    @media only screen and (min-width: 601px) {
+        width: 450px;
+    }
+}
+
+.films {
+    display: block;
+    @media only screen and (min-width: 601px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .number {
@@ -20,4 +35,7 @@
     text-shadow: 5px 0 #808080, -5px 0 #808080, 0 5px #808080, 0 -5px #808080,
              5px 5px #808080, -5px -5px #808080, 5px -5px #808080, -5px 5px #808080;
     color: black;
+    @media only screen and (min-width: 601px) {
+        font-size: 450px;
+    }
 }
