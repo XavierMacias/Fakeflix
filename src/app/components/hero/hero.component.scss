@@ -1,0 +1,23 @@
+.sectionTitle {
+    font-weight: 100;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.movie {
+    width: 300px;
+}
+
+.number {
+    font-size: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 0 #808080, -5px 0 #808080, 0 5px #808080, 0 -5px #808080,
+             5px 5px #808080, -5px -5px #808080, 5px -5px #808080, -5px 5px #808080;
+    color: black;
+}

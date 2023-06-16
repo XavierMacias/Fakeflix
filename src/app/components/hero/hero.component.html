@@ -1,0 +1,10 @@
+<h2 class="sectionTitle">LOS {{numTop}} {{infoTops.section.toUpperCase()}}</h2>
+
+<div class="films">
+    <ng-container *ngFor="let film of infoTops.films; let i = index">
+        <div class="top" *ngIf="i < numTop">
+            <span class="number">{{i+1}}</span>
+            <app-movie class="movie" [infoMovie]="film"></app-movie>
+        </div>
+    </ng-container>
+</div>

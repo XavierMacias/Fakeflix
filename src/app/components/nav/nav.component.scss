@@ -1,0 +1,15 @@
+img {
+    width: 20%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
